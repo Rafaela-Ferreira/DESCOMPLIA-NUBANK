@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Viagem dos sonhos</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Pacotes</li>
+                <li>Taxa</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <h1>Venha realizar a viagem dos seus sonhos!</h1>
+    </header>
+    <section>
+        <h2>Conheça nossos pacotes</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic animi iste et! Unde accusamus corrupti 
+            rem exercitationem autem assumenda harum porro deleniti animi ipsa? Tempora beatae molestias inventore 
+            architecto atque!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic animi iste et! Unde accusamus corrupti 
+            rem exercitationem autem assumenda harum porro deleniti animi ipsa? Tempora beatae molestias inventore 
+            architecto atque!
+            <br><br>
+            <a href="https://br.lipsum.com/feed/html"></a>
+            <hr>
+        </p>
+        <figure>
+            <img width="550px" src="https://www.viagenscinematograficas.com.br/wp-content/uploads/2018/11/Gramado-Dicas-Melhores-Passeios-Capa-4.jpg" alt="Imagem do chalé em gramado">
+            <figcaption>Gramado</figcaption>
+        </figure>
+        <figure>
+            <img width="550px" src="https://a.cdn-hotels.com/gdcs/production196/d546/d00e74a4-31ed-405a-87c7-96af472077c9.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="Praia em porto seguro">
+            <figcaption>Porto seguro</figcaption>
+        </figure>
+        <figure>
+            <img width="550px" src="https://todepassagem.clickbus.com.br/wp-content/uploads/2022/09/guia-rio-de-janeiro-to-de-passagem.jpg" alt="rio de janeiro">
+            <figcaption>Rio de janeiro</figcaption>
+        </figure>
+    </section>
+    <video controls width="550px">
+        <source src="VIDEOS/Letrinhas subindo memes.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        seu nvegador não suporta o formato do video <a href="VIDEOS/Letrinhas subindo memes.mp4">Clique aqui para baixar</a>
+    </video>
+    <section>
+        <h2>Taxas e serviços</h2>
+        <p>Vela nossas taxas para serviços</p>
+        <table border>
+            <caption>Descrição dos serviços  e respequitivos valores</caption>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>reserva de hotel</td>
+                    <td>R$: 150,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de passagens</td>
+                    <td>R$: 100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de carros</td>
+                    <td>R$: 50,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2>Orçamentos</h2>
+        <form method="GET" action="#">
+            <fieldset>
+                <legend>Dados da viagem</legend>
+                <label>Nome</label><br>
+                <input type="text" name="nome"><br><br>
+                <label>Email</label><br>
+                <input type="email" name="email" required><br><br>
+                <label>Data de ida</label><br>
+                <input type="date" name="dataIda"><br><br>
+                <label>Data de volta</label><br>
+                <input type="date" name="dataVolta"><br><br>
+                <label>Quantidade de pessoas</label><br>
+                <input type="number" nome="qtdPessoas"><br><br>
+                <label>Senha</label><br>
+                <input type="password" nome="senha"><br><br>
+            </fieldset>          
+            <fieldset>
+                <legend>Quis serviços deseja contratar?</legend>
+                <label>
+                <br><input type="checkbox" name="passagens" value="passagens">Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veiculos" value="ceiculos">Reserva de veiculos
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha a forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="cartãoDeCrédito">Cartão de credito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="pix">pix
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Escolha um prazo para pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">Á vista</option>
+                    <option value="5x">5 vezes sem juros</option>
+                    <option value="10x" selected>10x com juros</option>
+                </select>
+            </fieldset>
+
+            <label>Comentário</label><br>
+            <textarea rows="5" name="cometario"></textarea><br>
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+    <footer>
+        <p>Desenvolvido por Rafaela Ferreira</p>
+    </footer>
+    
+    
+
+</body>
+</html>
