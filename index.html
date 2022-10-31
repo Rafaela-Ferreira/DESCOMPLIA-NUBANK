@@ -11,14 +11,14 @@
     <header>
         <nav>
             <ul>
-                <li>Pacotes</li>
-                <li>Taxa</li>
-                <li>Contato</li>
+                <li><a  href="#">Pacotes</a></li>
+                <li><a  href="#">Taxa</a></li>
+                <li><a href="#">Contato</a></li>
             </ul>
         </nav>
         <h1>Venha realizar a viagem dos seus sonhos!</h1>
     </header>
-    <section>
+    <section id="pacotes">
         <h2>Conheça nossos pacotes</h2>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic animi iste et! Unde accusamus corrupti 
@@ -31,28 +31,32 @@
             <a href="https://br.lipsum.com/feed/html"></a>
             <hr>
         </p>
-        <figure>
-            <img width="550px" src="https://www.viagenscinematograficas.com.br/wp-content/uploads/2018/11/Gramado-Dicas-Melhores-Passeios-Capa-4.jpg" alt="Imagem do chalé em gramado">
-            <figcaption>Gramado</figcaption>
-        </figure>
-        <figure>
-            <img width="550px" src="https://a.cdn-hotels.com/gdcs/production196/d546/d00e74a4-31ed-405a-87c7-96af472077c9.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="Praia em porto seguro">
-            <figcaption>Porto seguro</figcaption>
-        </figure>
-        <figure>
-            <img width="550px" src="https://todepassagem.clickbus.com.br/wp-content/uploads/2022/09/guia-rio-de-janeiro-to-de-passagem.jpg" alt="rio de janeiro">
-            <figcaption>Rio de janeiro</figcaption>
-        </figure>
+        <div class="figuras">
+            <figure>
+                <img src="https://www.viagenscinematograficas.com.br/wp-content/uploads/2018/11/Gramado-Dicas-Melhores-Passeios-Capa-4.jpg" alt="Imagem do chalé em gramado">
+                <figcaption>Gramado</figcaption>
+            </figure>
+            <figure>
+                <img src="https://a.cdn-hotels.com/gdcs/production196/d546/d00e74a4-31ed-405a-87c7-96af472077c9.jpg?impolicy=fcrop&w=800&h=533&q=medium" alt="Praia em porto seguro">
+                <figcaption>Porto seguro</figcaption>
+            </figure>
+            <figure>
+                <img src="https://todepassagem.clickbus.com.br/wp-content/uploads/2022/09/guia-rio-de-janeiro-to-de-passagem.jpg" alt="rio de janeiro">
+                <figcaption>Rio de janeiro</figcaption>
+            </figure>
+        </div>
+        <div class="videos">
+            <video controls width="550px">
+                <source src="VIDEOS/Letrinhas subindo memes.mp4" type="video/mp4">
+                <source src="video.webm" type="video/webm">
+                seu nvegador não suporta o formato do video <a href="VIDEOS/Letrinhas subindo memes.mp4">Clique aqui para baixar</a>
+            </video>
+        </div>
     </section>
-    <video controls width="550px">
-        <source src="VIDEOS/Letrinhas subindo memes.mp4" type="video/mp4">
-        <source src="video.webm" type="video/webm">
-        seu nvegador não suporta o formato do video <a href="VIDEOS/Letrinhas subindo memes.mp4">Clique aqui para baixar</a>
-    </video>
     <section>
         <h2>Taxas e serviços</h2>
         <p>Vela nossas taxas para serviços</p>
-        <table border>
+        <table>
             <caption>Descrição dos serviços  e respequitivos valores</caption>
             <thead>
                 <tr>
@@ -135,9 +139,6 @@
     </section>
     <footer>
         <p>Desenvolvido por Rafaela Ferreira</p>
-    </footer>
-    
-    
-
+    </footer>   
 </body>
 </html>
